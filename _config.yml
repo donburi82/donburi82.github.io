@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Hoon Cho
+title: M.S. in Computer Science at NYU; Class of 2026 
+email: hc4338@nyu.edu
+phone: (929) 707-0751
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  donburi82
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: h00n-cho
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: Resume
+  icon: fas fa-regular fa-file
+  url: https://www.overleaf.com/read/rqhkzhnnwgfx#997c6a
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,73 +48,138 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Hoon and I am a first-year master’s student in computer science at New York University. I am passionate about leveraging technology to solve real-world problems, with a focus on software engineering and machine learning. Currently, I am working as a research assistant under Dr. Yi Yin.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am actively seeking a Summer 2025 internship and am open to opportunities across the United States. If you believe my skills align with your company's needs, feel free to reach out! My resume is available at the top right corner, and you can explore more details about my projects below.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: New York University
+        sub_title: Graduate Research Assistant
+        caption: Oct 2024 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - Supervised by Dr. [Yi Yin](https://as.nyu.edu/faculty/yi-yin.html)
+          - Data ETL and machine learning models for air temperature downscaling
+      - layout: left
+        title: VDX
+        sub_title: Software Engineering Intern
+        caption: June 2023 - July 2023
+        description: | # this will include new lines to allow paragraphs
+          - Researched into leveraging open-source LLMs for code generation, text generation, and document analysis
+          - Deployed a Retrieval-Augmented Generation (RAG)-based document question-answering (Next.js, Flask) pipeline on Amazon EC2
+          - Implemented Cloudflare JWT verification and resolved timeout errors with Celery
+  
+  - title: Projects (Extracurricular) # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: USThing
+        link: https://usthing.xyz/
+        link_text: Homepage
+        quote: >
+          JavaScript, Node.js (Express.js, Nest.js), MongoDB, Docker
+        description: | # this will include new lines to allow paragraphs
+          - USThing is a student-developed all-in-one app providing easy access to a variety of HKUST systems
+          - Managed test and production servers
+          - Implemented a file management system and admin guard using Nest.js and MongoDB
+          - Developed an API proxy for the HKUST library booking system using Express.js
+      - layout: top-middle
+        title: Quant Project
+        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        link_text: Report
+        # additional_links:
+        #   - title:  GitHub page for project
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+        description: | # this will include new lines to allow paragraphs
+          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
+          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+      - layout: top-middle
+        title: Disaster Tweet Classification
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/disaster-tweets
+        quote: >
+          Python (TensorFlow)
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of five in a Kaggle competition: the best submission scoring top 3% (test F1 score of 0.847) by utilizing BERT, keyword-stratified K-Fold, and soft voting
+      - layout: top-middle
+        title: Google Chrome extension
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/CScrape
+        quote: >
+          HTML, CSS, JS
+        description: | # this will include new lines to allow paragraphs
+          - Enhanced workflow by developing a Google Chrome extension that performs DOM scraping
+  
+  - title: Projects (Coursework) # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: TeamUp
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/TeamUp
+        quote: >
+          JavaScript, Node.js (Express.js), MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of three in developing a mobile application that facilitates group formation for HKUST students
+          - Designed NoSQL database schema and built RESTful APIs to support user, group, and preference functionalities
+      - layout: top-middle
+        title: Mobile Price Range Classification
+        # additional_links:
+        #   - title:  GitHub page for project
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Python (Pandas, Scikit-learn, Matplotlib)
+        description: | # this will include new lines to allow paragraphs
+          - Support Vector Machine, Decision Tree, Logistic Regression
+          - Hyperparameters Tuning using Grid Search and Feature Selection based on Importance
+          - Test accuracy of 97%
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: New York University
+        caption: Sep 2024 - Present
+        sub_title: M.S. in Computer Science
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          - Merit Scholarship Awardee
+          - Coursework: Machine Learning, Software Engineering, Big Data
+      - layout: left
+        title: The Hong Kong University of Science and Technology
+        caption: Sep 2018 - May 2024
+        sub_title: B.E. in Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - 4-Years Full Tuition Scholarship and Dean’s List Awardee
+          - GPA: 3.67/4.3 (First Class Honors; Magna Cum Laude equivalent)
+          - Semester exchange to The University of Texas at Austin (GPA: 4.0/4.0)
+          - Coursework: Artificial Intelligence, Deep Learning in Computer Vision, Big Data Mining and Management, Design and Analysis of Algorithms, Databases, Data Analytics, OOP and Data Structures, Operating Systems
+          - [Diploma](https://registry.hkust.edu.hk/verify/945BA310-6B45-490C-AB2B-F31DB38EBD88)
+          - [Official Transcript](https://registry.hkust.edu.hk/verify/7A4B52B7-4AC4-422D-8039-F9CCE91FB74D)
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in software engineering and machine learning, some of my other interests and hobbies are:
+      - Watching movies
+      - Playing the piano
+      - Playing racket sports
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title:  (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
