@@ -329,8 +329,8 @@ scholar:
   locale: en
   sort_by: year, month
   order: descending, descending
-  bibliography_list_tag: none   # ← disables <ul>/<ol> wrapper entirely
-  bibliography_item_tag: none   # ← disables <li> wrappers
+  bibliography_list_tag: div   # wrapper element (not numbered)
+  bibliography_item_tag: p     # each entry inside its own <p> bloc
 
 # Archives
 #  Type
