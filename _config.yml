@@ -327,6 +327,9 @@ scholar:
   bibliography: papers.bib
   style: apa
   locale: en
+  bibliography_list_tag: div   # instead of the default 'ol'
+  sort_by: year, month
+  order: descending, descending
 
 # Archives
 #  Type
