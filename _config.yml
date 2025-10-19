@@ -310,16 +310,23 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-scholar
 
 # Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
+# whitelist:
+#   - jekyll-feed
+#   - jekyll-gist
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-redirect-from
+#   - jemoji
 
+# point to your BibTeX (you said it’s under `files/`)
+scholar:
+  source: files
+  bibliography: papers.bib
+  style: apa
+  locale: en
 
 # Archives
 #  Type
