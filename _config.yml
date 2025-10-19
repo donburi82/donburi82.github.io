@@ -327,9 +327,10 @@ scholar:
   bibliography: papers.bib
   style: apa
   locale: en
-  bibliography_list_tag: div   # instead of the default 'ol'
   sort_by: year, month
   order: descending, descending
+  bibliography_list_tag: none   # ← disables <ul>/<ol> wrapper entirely
+  bibliography_item_tag: none   # ← disables <li> wrappers
 
 # Archives
 #  Type
