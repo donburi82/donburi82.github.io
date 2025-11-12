@@ -1,7 +1,7 @@
 ---
 title: "Consistent Counterfactuals for Deep Models"
 collection: publications
-permalink: /publication/2021-consistent-counterfactuals
+permalink: /publication/2021-01-01-consistent-counterfactuals
 date: 2021-10-06
 venue: "ICLR 2021"
 paperurl: "https://arxiv.org/abs/2110.03109"
