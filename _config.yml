@@ -1,0 +1,192 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: John Cho
+title: M.S. in Computer Science at NYU; Class of 2026 
+email: hc4338@nyu.edu
+phone: (929) 707-0751
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  donburi82
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: h00n-cho
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Resume
+  icon: fas fa-regular fa-file
+  url: https://drive.google.com/file/d/1lrLYVheaji-0fC83oLhpUVWkl6oqcpC6/view?usp=sharing
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Hoon and I am a first-year master’s student in computer science at New York University. I am passionate about leveraging technology to solve real-world problems, with a focus on software engineering and machine learning. Currently, I am working as a research assistant under Dr. Yi Yin.
+
+  I am actively seeking a Summer 2025 internship and am open to opportunities across the United States. If you believe my skills align with your company's needs, feel free to reach out! My resume is available at the top right corner, and you can explore more details about my projects below.
+
+content:
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: New York University
+        sub_title: Graduate Research Assistant
+        caption: Oct 2024 - Present
+        description: | # this will include new lines to allow paragraphs
+          - Supervised by Dr. [Yi Yin](https://as.nyu.edu/faculty/yi-yin.html)
+          - Data ETL and machine learning models for air temperature downscaling
+      - layout: left
+        title: VDX
+        sub_title: Software Engineering Intern
+        caption: June 2023 - July 2023
+        description: | # this will include new lines to allow paragraphs
+          - Researched into leveraging open-source LLMs for code generation, text generation, and document analysis
+          - Deployed a Retrieval-Augmented Generation (RAG)-based document question-answering (Next.js, Flask) pipeline on Amazon EC2
+          - Implemented Cloudflare JWT verification and resolved timeout errors with Celery
+  
+  - title: Projects (Extracurricular) # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: USThing
+        link: https://usthing.xyz/
+        link_text: Homepage
+        quote: >
+          JavaScript, Node.js (Express.js, Nest.js), MongoDB, Docker
+        description: | # this will include new lines to allow paragraphs
+          - USThing is a student-developed all-in-one app providing easy access to a variety of HKUST systems
+          - Managed test and production servers
+          - Implemented a file management system and admin guard using Nest.js and MongoDB
+          - Developed an API proxy for the HKUST library booking system using Express.js
+      - layout: top-middle
+        title: Quant Project
+        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        link_text: Report
+        # additional_links:
+        #   - title:  GitHub page for project
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+        description: | # this will include new lines to allow paragraphs
+          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
+          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+      - layout: top-middle
+        title: Disaster Tweet Classification
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/disaster-tweets
+        quote: >
+          Python (TensorFlow)
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of five in a Kaggle competition: the best submission scoring top 3% (test F1 score of 0.847) by utilizing BERT, keyword-stratified K-Fold, and soft voting
+      - layout: top-middle
+        title: Google Chrome extension
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/CScrape
+        quote: >
+          HTML, CSS, JS
+        description: | # this will include new lines to allow paragraphs
+          - Enhanced workflow by developing a Google Chrome extension that performs DOM scraping
+  
+  - title: Projects (Coursework) # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: TeamUp
+        additional_links:
+          - title:  GitHub page for project
+            icon: fab fa-github
+            url: github.com/donburi82/TeamUp
+        quote: >
+          JavaScript, Node.js (Express.js), MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of three in developing a mobile application that facilitates group formation for HKUST students
+          - Designed NoSQL database schema and built RESTful APIs to support user, group, and preference functionalities
+      - layout: top-middle
+        title: Mobile Price Range Classification
+        # additional_links:
+        #   - title:  GitHub page for project
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Python (Pandas, Scikit-learn, Matplotlib)
+        description: | # this will include new lines to allow paragraphs
+          - Support Vector Machine, Decision Tree, Logistic Regression
+          - Hyperparameters Tuning using Grid Search and Feature Selection based on Importance
+          - Test accuracy of 97%
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: New York University
+        caption: Sep 2024 - Present
+        sub_title: M.S. in Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - Merit Scholarship Awardee
+          - Coursework: Machine Learning, Software Engineering, Big Data
+      - layout: left
+        title: The Hong Kong University of Science and Technology
+        caption: Sep 2018 - May 2024
+        sub_title: B.E. in Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - 4-Years Full Tuition Scholarship and Dean’s List Awardee
+          - GPA: 3.67/4.3 (First Class Honors; Magna Cum Laude equivalent)
+          - Semester exchange to The University of Texas at Austin (GPA: 4.0/4.0)
+          - Coursework: Artificial Intelligence, Deep Learning in Computer Vision, Big Data Mining and Management, Design and Analysis of Algorithms, Databases, Data Analytics, OOP and Data Structures, Operating Systems
+          - [Diploma](https://registry.hkust.edu.hk/verify/945BA310-6B45-490C-AB2B-F31DB38EBD88)
+          - [Official Transcript](https://registry.hkust.edu.hk/verify/7A4B52B7-4AC4-422D-8039-F9CCE91FB74D)
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering and machine learning, some of my other interests and hobbies are:
+      - Playing the piano
+      - Playing squash
+      - Watching movies
+
+# Footer
+footer_show_references: true
+# references_title:  (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
