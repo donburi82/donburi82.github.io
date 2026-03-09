@@ -43,6 +43,7 @@ additional_links:
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
+gtag: "G-52JQ5B0D2G"
 
 # About Section
 # about_title: About Me
@@ -151,7 +152,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Team: Hoon Cho (Backend Development), Eunsoo Cho (UI/UX, Strategy), Christopher Park (Frontend Development), Yujin Yi (Frontend Development)
           - TravSum is an AI-powered travel storytelling app that transforms trip photos into themed highlight videos by extracting image metadata, categorizing moments, and compiling them into a dynamic visual summary.
-          - TravSum was a winner at Tech@NYU’s 2025 Buildathon and received the Adobe-sponsored Best UI/UX Design award.
+          - TravSum was one of the winners at Tech@NYU’s 2025 Buildathon and received the Adobe-sponsored Best UI/UX Design award.
 
   - title: A Little More About Me
     layout: text
