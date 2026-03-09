@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: John Cho
+name: Hoon (John) Cho
 title: M.S. in Computer Science at NYU; Graduating May 2026
 email: hc4338@nyu.edu
 phone: (929) 707-0751
@@ -32,7 +32,7 @@ linkedin_username: h00n-cho
 # Additional icon links
 additional_links:
 - title: Resume
-  icon: fas fa-regular fa-file
+  icon: fas fa-file-pdf
   url: https://drive.google.com/file/d/1kC2eyaDb898p3J5VV8B0NyVF_e2k12dp/view?usp=sharing
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -48,72 +48,110 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to my personal website. Here I share projects that don’t fit on a one-page resume, ranging from early proof-of-concepts to work that has evolved into longer-term projects, along with a few notes on what I enjoy outside of coding. I’m motivated by building technology that solves real-world problems.
+  Welcome to my personal website. Here, I share projects that do not fit on a one-page resume (available in the top-right corner of this page), ranging from early proof of concept work to longer-term projects, along with a few notes on what I enjoy outside of coding. I am motivated by building technology that solves real-world problems. While my strongest experience is in backend and ML-related work, I have been actively expanding into broader full-stack development and enjoy challenging myself in new areas.
 
-  I’m currently seeking a new-grad Software Engineer or Machine Learning Engineer role in the United States. I prioritize team culture, mission, and the opportunity to learn and build meaningful products.
+  I am currently seeking a new-grad Software Engineer or Machine Learning Engineer role in the United States. I am most excited by opportunities to learn quickly, take ownership, and grow through meaningful engineering work.
 
 content:
-  - title: Projects (that can be shared right now) # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Haruna
-        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
-        link_text: Report
+        title: Haruna (Ongoing)
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
         additional_links:
-          - title:  GitHub page for project
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+          # - title: GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/yourname/yourrepo
+          - title: Pitch Deck
+            icon: fas fa-file-powerpoint
+            url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+          - title: Demo Video
+            icon: fas fa-video
+            url: https://youtu.be/d3LDVcTWFB8
+          # - title: Live demo
+          #   icon: fas fa-globe
+          #   url: https://example.com
         quote: >
-          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+          React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
-          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+          - Team: Hoon Cho (Full-Stack Development), Eunsoo Cho (UI/UX, Strategy)
+          - Haruna is an AI-powered wellness app for students and low-income young adults facing irregular routines, food insecurity, and mental health burdens.
       - layout: top-middle
         title: Bloom
-        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
-        link_text: Report
-        # additional_links:
-        #   - title:  GitHub page for project
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        additional_links:
+          # - title: GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/yourname/yourrepo
+          - title: Pitch Deck
+            icon: fas fa-file-powerpoint
+            url: https://drive.google.com/file/d/1NzUgNKYi2ADlxMZ6Q9Di2hWniOyhrayI/view?usp=sharing
+          # - title: Demo Video
+          #   icon: fas fa-video
+          #   url: https://youtu.be/d3LDVcTWFB8
+          # - title: Live demo
+          #   icon: fas fa-globe
+          #   url: https://example.com
         quote: >
-          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+          React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
-          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+          - Team: Hoon Cho (Full-Stack Development), Eunsoo Cho (UI/UX, Strategy)
+          - Bloom is an AI-powered mobile app prototype that combined career guidance, habit building, journaling, and mental wellness support for young adults, and later evolved into Haruna.
       - layout: top-middle
         title: Florise
-        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
-        link_text: Report
-        # additional_links:
-        #   - title:  GitHub page for project
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        additional_links:
+          # - title: GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/yourname/yourrepo
+          # - title: Pitch Deck
+          #   icon: fas fa-file-powerpoint
+          #   url: https://drive.google.com/file/d/1NzUgNKYi2ADlxMZ6Q9Di2hWniOyhrayI/view?usp=sharing
+          - title: Demo Video
+            icon: fas fa-video
+            url: https://www.youtube.com/watch?v=YcaolYTpRow
+          # - title: Live demo
+          #   icon: fas fa-globe
+          #   url: https://example.com
         quote: >
-          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+          React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
-          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+          - Team: Hoon Cho (Backend Development), Eunsoo Cho (UI/UX, Strategy), Soohyeuk Choi (Frontend Development)
+          - Florise is an AI-powered career discovery app for young adults navigating gap years and life uncertainty through gamified daily missions and personalized guidance, and later evolved into Bloom and Haruna.
+          - Florise was selected as a semi-finalist at NYU Tandon’s [2025 Capstone Competition](https://engineering.nyu.edu/news/future-was-display-tandons-2025-capstone-competition), where our team was one of six chosen to deliver a 10-minute pitch to industry judges.
       - layout: top-middle
         title: TravSum
-        link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
-        link_text: Report
-        # additional_links:
-        #   - title:  GitHub page for project
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        additional_links:
+          # - title: GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/yourname/yourrepo
+          # - title: Pitch Deck
+          #   icon: fas fa-file-powerpoint
+          #   url: https://drive.google.com/file/d/1NzUgNKYi2ADlxMZ6Q9Di2hWniOyhrayI/view?usp=sharing
+          - title: Demo Video
+            icon: fas fa-video
+            url: https://www.youtube.com/watch?v=Ib4evIDuKOk
+          # - title: Live demo
+          #   icon: fas fa-globe
+          #   url: https://example.com
         quote: >
-          Python (Pandas, NumPy, Matplotlib, Yahoo Finance)
+          React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Led and presented a project on outperforming the S&P 500 through momentum trading and weight rebalancing
-          - Streamlined model training and testing with Python (Pandas, NumPy, Matplotlib, Yahoo Finance) and achieved an average outperformance of 1.827 in annualized Sharpe Ratio on the test dataset
+          - Team: Hoon Cho (Backend Development), Eunsoo Cho (UI/UX, Strategy), Christopher Park (Frontend Development), Yujin Yi (Frontend Development)
+          - TravSum is an AI-powered travel storytelling app that transforms trip photos into themed highlight videos by extracting image metadata, categorizing moments, and compiling them into a dynamic visual summary.
+          - TravSum was a winner at Tech@NYU’s 2025 Buildathon and received the Adobe-sponsored Best UI/UX Design award.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       When I’m not coding, you’ll usually find me doing one of these:
-      - Playing the [piano](https://www.google.com/)
+      - Playing the [piano](https://youtu.be/eR-yIzAl9n8?si=VtU_EHQiUcs3dTO2&t=3081)
       - Playing squash
       - Watching films
       - Reading (new habit)
