@@ -33,7 +33,7 @@ linkedin_username: h00n-cho
 additional_links:
 - title: Resume
   icon: fas fa-file-pdf
-  url: https://drive.google.com/file/d/1kC2eyaDb898p3J5VV8B0NyVF_e2k12dp/view?usp=sharing
+  url: https://drive.google.com/file/d/1rPoQh_8GwrrTO7HLoaKnpnPzuF0wzhCm/view?usp=sharing
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to my personal website. Here, I share projects that do not fit on a one-page resume (available in the top-right corner of this page), ranging from early proof of concept work to longer-term projects, along with a few notes on what I enjoy outside of coding. I am motivated by building technology that solves real-world problems. While my strongest experience is in backend and ML-related work, I have been actively expanding into broader full-stack development and enjoy challenging myself in new areas.
+  Welcome to my personal website. Here, I share projects that do not fit on a one-page resume (available in the top-right corner of this page), ranging from early proof of concept work to longer-term projects, along with a few notes on what I enjoy outside of coding.
+  
+  I am motivated by building technology that solves real-world problems. While my strongest experience is in backend and ML-related work, I have been actively expanding into broader full-stack development and enjoy challenging myself in new areas.
 
   I am currently seeking a new-grad Software Engineer or Machine Learning Engineer role in the United States. I am most excited by opportunities to learn quickly, take ownership, and grow through meaningful engineering work.
 
@@ -57,7 +59,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Haruna (Ongoing)
+        title: Haruna
+        caption: Oct 2025 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
         additional_links:
@@ -80,6 +83,7 @@ content:
           - Haruna is an AI-powered wellness app for students and low-income young adults facing irregular routines, food insecurity, and mental health burdens.
       - layout: top-middle
         title: Bloom
+        caption: May 2025 - Sep 2025
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
         additional_links:
@@ -102,6 +106,7 @@ content:
           - Bloom is an AI-powered mobile app prototype that combined career guidance, habit building, journaling, and mental wellness support for young adults, and later evolved into Haruna.
       - layout: top-middle
         title: Florise
+        caption: Apr 2025
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
         additional_links:
@@ -125,6 +130,7 @@ content:
           - Florise was selected as a semi-finalist at NYU Tandon’s [2025 Capstone Competition](https://engineering.nyu.edu/news/future-was-display-tandons-2025-capstone-competition), where our team was one of six chosen to deliver a 10-minute pitch to industry judges.
       - layout: top-middle
         title: TravSum
+        caption: Mar 2025
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
         additional_links:
