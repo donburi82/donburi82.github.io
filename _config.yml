@@ -203,7 +203,7 @@ content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: text
+      - layout: left
         description: |
           I am particularly interested in understanding how models form and justify their decisions, why they fail, and how these failures reveal underlying patterns in the data.
       - layout: top-middle
