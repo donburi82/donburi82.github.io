@@ -60,6 +60,52 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Balloon
+        caption: Mar 2026 - Present
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        # additional_links:
+        #   # - title: GitHub
+        #   #   icon: fab fa-github
+        #   #   url: https://github.com/yourname/yourrepo
+        #   # - title: Pitch Deck
+        #   #   icon: fas fa-file-powerpoint
+        #   #   url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+        #   # - title: Demo Video
+        #   #   icon: fas fa-video
+        #   #   url: https://youtu.be/d3LDVcTWFB8
+        #   # - title: Live demo
+        #   #   icon: fas fa-globe
+        #   #   url: https://example.com
+        quote: >
+          React Native (Expo), Node.js, Express.js, MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Team: Hoon Cho (Full-Stack Development), Eric Kim (UI/UX)
+          - A Mobile App for Birthdays (Details TBA)
+      - layout: top-middle
+        title: LingBee
+        caption: Mar 2026 - Present
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        # additional_links:
+        #   # - title: GitHub
+        #   #   icon: fab fa-github
+        #   #   url: https://github.com/yourname/yourrepo
+        #   # - title: Pitch Deck
+        #   #   icon: fas fa-file-powerpoint
+        #   #   url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+        #   # - title: Demo Video
+        #   #   icon: fas fa-video
+        #   #   url: https://youtu.be/d3LDVcTWFB8
+        #   # - title: Live demo
+        #   #   icon: fas fa-globe
+        #   #   url: https://example.com
+        # quote: >
+        #   React Native (Expo), Node.js, Express.js, MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Team: Hoon Cho, Esther Lee, TBA
+          - A web-based, ML-powered platform in the clinical domain (Details TBA)
+      - layout: top-middle
         title: Haruna
         caption: Oct 2025 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
@@ -153,7 +199,80 @@ content:
           - Team: Hoon Cho (Backend Development), Eunsoo Cho (UI/UX, Strategy), Christopher Park (Frontend Development), Yujin Yi (Frontend Development)
           - TravSum is an AI-powered travel storytelling app that transforms trip photos into themed highlight videos by extracting image metadata, categorizing moments, and compiling them into a dynamic visual summary.
           - TravSum was one of the winners at Tech@NYU’s 2025 Buildathon and received the Adobe-sponsored Best UI/UX Design award.
-
+  
+  - title: Research # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: text
+        description: |
+          I am particularly interested in understanding how models form and justify their decisions, why they fail, and how these failures reveal underlying patterns in the data.
+      - layout: top-middle
+        title: Personal Work
+        caption: Feb 2026 - Present
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        # additional_links:
+        #   # - title: GitHub
+        #   #   icon: fab fa-github
+        #   #   url: https://github.com/yourname/yourrepo
+        #   # - title: Pitch Deck
+        #   #   icon: fas fa-file-powerpoint
+        #   #   url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+        #   # - title: Demo Video
+        #   #   icon: fas fa-video
+        #   #   url: https://youtu.be/d3LDVcTWFB8
+        #   # - title: Live demo
+        #   #   icon: fas fa-globe
+        #   #   url: https://example.com
+        # quote: >
+        #   React Native (Expo), Node.js, Express.js, MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - TBA
+      - layout: top-middle
+        title: NYU Black Lab
+        caption: Jun 2025 - Present
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        # additional_links:
+        #   # - title: GitHub
+        #   #   icon: fab fa-github
+        #   #   url: https://github.com/yourname/yourrepo
+        #   # - title: Pitch Deck
+        #   #   icon: fas fa-file-powerpoint
+        #   #   url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+        #   # - title: Demo Video
+        #   #   icon: fas fa-video
+        #   #   url: https://youtu.be/d3LDVcTWFB8
+        #   # - title: Live demo
+        #   #   icon: fas fa-globe
+        #   #   url: https://example.com
+        # quote: >
+        #   React Native (Expo), Node.js, Express.js, MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Collaborators: Dr. Emily Black Yin (PI), Falaah Arif Khan
+      - layout: top-middle
+        title: NYU EcoLab
+        caption: Oct 2024 - Present
+        # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
+        # link_text: Report
+        # additional_links:
+        #   # - title: GitHub
+        #   #   icon: fab fa-github
+        #   #   url: https://github.com/yourname/yourrepo
+        #   # - title: Pitch Deck
+        #   #   icon: fas fa-file-powerpoint
+        #   #   url: https://drive.google.com/file/d/1Sv1bYnMhwNGeralTKI2eWna02wPIdDwu/view?usp=sharing
+        #   # - title: Demo Video
+        #   #   icon: fas fa-video
+        #   #   url: https://youtu.be/d3LDVcTWFB8
+        #   # - title: Live demo
+        #   #   icon: fas fa-globe
+        #   #   url: https://example.com
+        # quote: >
+        #   React Native (Expo), Node.js, Express.js, MongoDB
+        description: | # this will include new lines to allow paragraphs
+          - Collaborators: Dr. Yi Yin (PI)
+  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
