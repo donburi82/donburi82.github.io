@@ -100,8 +100,8 @@ content:
         #   # - title: Live demo
         #   #   icon: fas fa-globe
         #   #   url: https://example.com
-        # quote: >
-        #   React Native (Expo), Node.js, Express.js, MongoDB
+        quote: >
+          TBD
         description: | # this will include new lines to allow paragraphs
           - Team: Hoon Cho, Esther Lee, TBA
           - A web-based, ML-powered platform in the clinical domain (Details TBA)
@@ -174,7 +174,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Team: Hoon Cho (Backend Development), Eunsoo Cho (UI/UX, Strategy), Soohyeuk Choi (Frontend Development)
           - Florise is an AI-powered career discovery app for young adults navigating gap years and life uncertainty through gamified daily missions and personalized guidance, and later evolved into Bloom and Haruna.
-          - Florise was selected as a semi-finalist at NYU Tandon’s [2025 Capstone Competition](https://engineering.nyu.edu/news/future-was-display-tandons-2025-capstone-competition), where our team was one of six chosen to deliver a 10-minute pitch to industry judges.
+          - Florise was selected as a semi-finalist at NYU Tandon’s [2025 Capstone Competition](https://engineering.nyu.edu/news/future-was-display-tandons-2025-capstone-competition), where our team was one of six teams chosen to deliver a 10-minute pitch to industry judges.
       - layout: top-middle
         title: TravSum
         caption: Mar 2025
@@ -205,7 +205,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       I am broadly interested in building machine learning systems that are reliable, equitable, and socially responsible across a wide range of decision-making contexts. In particular, I want to understand how models arrive at their decisions, when those decisions can be justified, and why models fail.
       
-      Much of my current research focuses on large language models (LLMs), especially questions of interpretability, reliability, and fairness. My main motivation, however, is not LLMs in themselves, but the broader challenge of ensuring that machine learning systems are dependable and responsible in practice.
+      Much of my current research focuses on large language models (LLMs), especially questions around interpretability, reliability, and fairness. My main motivation, however, is not LLMs in themselves, but the broader challenge of ensuring that machine learning systems are dependable and responsible in practice.
 
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
@@ -256,9 +256,9 @@ content:
         # quote: >
         #   React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Collaborators: Dr. Emily Black Yin (PI), Falaah Arif Khan
+          - Collaborators: Dr. [Emily Black](https://emblack.github.io/) (PI), Falaah Arif Khan
       - layout: top-middle
-        title: High-resolution (Urban) Air Temperature Prediction in LA
+        title: High-resolution Air Temperature Prediction in LA
         caption: Oct 2024 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
@@ -278,7 +278,7 @@ content:
         # quote: >
         #   React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - Collaborators: Dr. Yi Yin (PI)
+          - Collaborators: Dr. [Yi Yin](https://as.nyu.edu/faculty/yi-yin.html) (PI)
   
   - title: A Little More About Me
     layout: text
