@@ -200,14 +200,21 @@ content:
           - TravSum is an AI-powered travel storytelling app that transforms trip photos into themed highlight videos by extracting image metadata, categorizing moments, and compiling them into a dynamic visual summary.
           - TravSum was one of the winners at Tech@NYU’s 2025 Buildathon and received the Adobe-sponsored Best UI/UX Design award.
   
+  - title: Research Interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I am broadly interested in building machine learning systems that are reliable, equitable, and socially responsible across a wide range of decision-making contexts. In particular, I want to understand how models arrive at their decisions, when those decisions can be justified, and why models fail.
+      
+      Much of my current research focuses on large language models (LLMs), especially questions of interpretability, reliability, and fairness. My main motivation, however, is not LLMs in themselves, but the broader challenge of ensuring that machine learning systems are dependable and responsible in practice.
+
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        description: |
-          I am particularly interested in understanding how models form and justify their decisions, why they fail, and how these failures reveal underlying patterns in the data.
+      # - layout: left
+      #   description: |
+      #     I am particularly interested in understanding how models form and justify their decisions, why they fail, and how these failures reveal underlying patterns in the data.
       - layout: top-middle
-        title: Personal Work
+        title: Disentangling Instruction Following vs. Reasoning in LLMs
         caption: Feb 2026 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
@@ -227,9 +234,9 @@ content:
         # quote: >
         #   React Native (Expo), Node.js, Express.js, MongoDB
         description: | # this will include new lines to allow paragraphs
-          - TBA
+          - Personal work
       - layout: top-middle
-        title: NYU Black Lab
+        title: Reasoning Consistency & Validity of LLMs
         caption: Jun 2025 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
@@ -251,7 +258,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Collaborators: Dr. Emily Black Yin (PI), Falaah Arif Khan
       - layout: top-middle
-        title: NYU EcoLab
+        title: High-resolution (Urban) Air Temperature Prediction in LA
         caption: Oct 2024 - Present
         # link: https://www.linkedin.com/posts/hkustkriss_kriss-quant-team-fall-202324-report-vol-activity-7156470854543974400-F-76?utm_source=share&utm_medium=member_desktop
         # link_text: Report
@@ -280,6 +287,7 @@ content:
       - Playing the [piano](https://youtu.be/eR-yIzAl9n8?si=VtU_EHQiUcs3dTO2&t=3081)
       - Playing squash
       - Watching films
+      - Cooking
       - Reading (new habit)
 
 # Footer
